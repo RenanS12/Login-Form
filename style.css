@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap');
 * {
     margin: 0;
     border: 0;
@@ -32,7 +33,18 @@ body {
 }
 
 .form .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 1.5rem;
+}
+
+.form .main {}
+
+.form .main .input-field {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
 }
 
 .image img {
