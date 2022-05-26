@@ -98,8 +98,6 @@ body {
     margin: 1rem;
 }
 
-.form .main a {}
-
 .form .main a {
     text-decoration: none;
     background: var(--green);
