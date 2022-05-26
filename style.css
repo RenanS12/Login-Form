@@ -10,6 +10,12 @@
  :root {
     --green: #14C38E;
     --white: #F7F7F7;
+    --gray: #DFDFDE;
+}
+
+::selection {
+    color: var(--white);
+    background: var(--green);
 }
 
 body {
@@ -47,14 +53,53 @@ body {
     margin: 1rem 0;
 }
 
+.form .main .title h1 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
 .form .main strong {
     color: var(--green);
 }
 
 .form .main .input-field {
     display: flex;
-    align-items: center;
-    margin: 1rem;
+    flex-direction: column;
+    margin: 1.5rem;
+}
+
+.form .main span {
+    margin: 1rem 0;
+}
+
+.form .main .input-field input {
+    position: relative;
+    background: transparent;
+    border-bottom: 1px solid #000;
+}
+
+.form .main .input-field input[type=text],
+[type=password] {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.form .main .input-field label {
+    position: absolute;
+    margin: -1rem 0;
+    color: var(--gray);
+}
+
+.form .main .input-field input:focus {
+    outline: none;
+}
+
+.form .main a {
+    text-decoration: none;
+    background: var(--green);
+    color: var(--white);
+    padding: 0.5rem 1rem;
+    border-radius: 0.1rem;
 }
 
 .image img {
