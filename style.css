@@ -94,6 +94,12 @@ body {
     outline: none;
 }
 
+.form .main .btn {
+    margin: 1rem;
+}
+
+.form .main a {}
+
 .form .main a {
     text-decoration: none;
     background: var(--green);
@@ -101,6 +107,17 @@ body {
     padding: 0.5rem 1rem;
     border-radius: 0.1rem;
     font-weight: 500;
+}
+
+.form .other {
+    margin: 1rem;
+}
+
+.form .other a {
+    background: none;
+    color: var(--green);
+    text-decoration: solid;
+    text-decoration: #14C38E;
 }
 
 .image img {
