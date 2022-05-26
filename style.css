@@ -126,3 +126,22 @@ body {
     width: 100%;
     border-radius: 1rem 0 0 1rem;
 }
+
+@media screen and (max-width: 600px) {
+    .form {
+        display: flex;
+        justify-content: center;
+        width: 20rem;
+        height: 35rem;
+    }
+    .form .title h3 {
+        margin: 1rem 0;
+        font-size: 2rem;
+    }
+    .form input {
+        margin: 1rem 0;
+    }
+    .form img {
+        width: 0;
+    }
+}
