@@ -5,8 +5,13 @@
     box-sizing: border-box;
 }
 
+:root {
+    --main-green: #14C38E;
+    --white: #F7F7F7;
+}
+
 body {
-    background: #371B58;
+    background: #14C38E;
 }
 
 .container {
@@ -15,4 +20,21 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.form {
+    height: 30rem;
+    width: 60rem;
+    background: var(--white);
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.form .input-field {}
+
+.image img {
+    object-fit: cover;
+    height: 100%;
+    width: 70%;
 }
